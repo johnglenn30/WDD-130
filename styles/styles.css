@@ -4,22 +4,26 @@
     
 
 
-/* body {
-    text-align: center;
-} */
+body {
+    margin: 0;
+    font-family: 'Luckiest Guy', cursive;
+}
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
 a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
+
 }
 h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 img {
     width: 80%;
@@ -53,6 +57,7 @@ main p {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 a:hover {
     background-color: white;
