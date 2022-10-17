@@ -3,15 +3,22 @@
     margin: 0 auto;
 }
 .home-title {
-    color: navajowhite
+    color: darkblue;
+    font-family: 'Luckiest Guy', cursive, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: azure;
+}
+h2 {
+    margin: 0;
 }
 nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #28112b;
@@ -26,12 +33,18 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: white;
 }
 body{
     background-color: #2361B1;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 
 }
 header{
@@ -43,6 +56,10 @@ header{
     background-color: white ;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: yellow;
@@ -50,15 +67,22 @@ header{
 } 
 .msg{
     background-color: royalblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
-    color:white
+    color:darkblue;
+    font-family: 'Luckiest Guy', cursive, sans-serif;
+
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: beige;
+    padding: 25px 30px;
 }
 footer a {
     color: blue;
@@ -78,4 +102,18 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+    margin-top: 200px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px;
+    color: #2361B1;
 }
