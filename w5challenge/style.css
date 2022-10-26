@@ -1,0 +1,41 @@
+body {
+    width: 0 auto;
+}
+
+#pic1 {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 20%;
+    max-height: 50%;
+}
+
+footer {
+    padding: 10px;
+    /* border-radius: 50px; */
+    max-height: 200px;
+    margin: auto;
+
+}
+#pic2, #pic3, #pic4 {
+    box-sizing: border-box;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+    margin: 30px auto;
+    margin-left: 180px;
+    border: 300px;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 35);
+    /* align-items: bottom; */
+    /* object-position: bottom; */
+}
+
+
+
+footer {
+    /* border:100%; */
+    /* border-spacing: 20px; */
+    /* margin-left: 150px color=grey; */
+    background-color: grey;
+}
