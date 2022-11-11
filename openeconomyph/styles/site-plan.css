@@ -174,5 +174,14 @@ border-top: 1px solid;
 border-right: 1px solid;
 }
 .img3 {
-    max-width: 100%;
+    max-width: 50%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+
 }
