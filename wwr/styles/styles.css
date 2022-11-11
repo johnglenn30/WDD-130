@@ -185,7 +185,28 @@ footer .social img {
     grid-column: 2/4;
     grid-row: 2/3;
 }
-
+.logo {
+    max-width: 100px;
+}
+.testimonials-grid {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.experiences {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    /* border-radius: 5px; */
+    /* padding: 16px;
+    margin: 16px 0; */
+    /* grid-area: 1/1/1/1; */
+    /* display: grid; */
+    border: solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.exp1 {
+    border: solid black;
+    
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
