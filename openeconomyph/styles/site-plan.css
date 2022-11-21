@@ -100,7 +100,7 @@ color: var(--paragraph-color-on-color);
 }
 
 nav {
-background-color: var(--nav-background-color);
+background-color: white;
 line-height: 3em;
 text-align: center;
 font-size: 1.2em;
@@ -121,8 +121,9 @@ nav a:link, nav a:visited {
 color: var(--nav-link-color);
 }
 nav a:hover {
-color: var(--nav-hover-link-color);
-background-color: var(--nav-hover-background-color);
+color: red;
+/* background-color: black; */
+/* border: solid red; */
 }
 
 .sitemap {
@@ -180,8 +181,19 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    max-width: 100px;
+}
+footer {
+    margin-top: 25px;
 }
