@@ -15,18 +15,33 @@ h2 {
     margin: 0;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #D4AC0D;
+    padding: none;
+    border: solid black;
+    display: block;
+    grid-column:2/2;
+    
 }
 nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
-    padding: 35px;
+    padding: 80px;
+    
+
 }
 nav a:hover {
     /* background-color: #28112b; */
     color: red
+}
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 main {
     display: grid;
@@ -83,7 +98,6 @@ header{
     background-color: #ffffff ;
     display: grid;
     grid-template-columns: 150px auto;
-
 }
 
 
